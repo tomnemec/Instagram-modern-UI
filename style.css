@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsla(11, 82%, 87%, 1);
+    background: linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(11, 82%, 87%, 1) 0%, hsla(299, 85%, 90%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9CDC3", endColorstr="#FACEFB", GradientType=1 );
+}
+.row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.my{
+    margin: 50px 0 0 0; 
+}
+.row h2{
+    position: absolute;
+    top: -50px;
+}
+.stories{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.new{
+    padding: 3px;
+    border: 3px solid red;
+}
+.card{
+    position: relative;
+    width:400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card article{
+    background: rgba(128, 128, 128, 0.805);
+    position: absolute;
+    padding: 0 20px 0 20px;
+    border-radius: 0 0 15px 15px;   
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+.lectors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;    
+    height: 400px;
+}
+.lectors .row{
+    margin:20px 0 0 0;  
+}
+.lector-card{
+    width: 350px;
+    height: 80px;
+    background: rgb(241, 229, 229);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;   
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.lector-card:hover{
+    background: rgb(241, 229, 229);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    scale: 1.02;
+}
+.thumbnail{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.btn-add{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.btn-add:hover{
+    background: #cac7c7;
+    scale: 1.1;
+}   
